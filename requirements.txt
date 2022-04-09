@@ -5,6 +5,4 @@ requests
 
 
 
-1. brands
-2. models
-3. phone
+
