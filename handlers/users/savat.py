@@ -13,7 +13,6 @@ async def get_cart(message: types.Message):
     for product in products:
       mahsulot.add(KeyboardButton(text=f"❌ {product[1]} ❌"))
       msg += f"{product[1]} * {product[2]}\n"
-    mahsulot.row("Bo'shatish")
+    mahsulot.row("🔙 Ortga")
     await message.answer(msg, reply_markup=mahsulot)
-  else:
-    await message.answer("Savatchangiz bo'sh")
+  
