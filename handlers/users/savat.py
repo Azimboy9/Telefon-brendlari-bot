@@ -15,4 +15,5 @@ async def get_cart(message: types.Message):
       msg += f"{product[1]} * {product[2]}\n"
     mahsulot.row("🔙 Ortga")
     await message.answer(msg, reply_markup=mahsulot)
-  
+  else:
+    await message.answer("Savatchangiz bo'sh")
